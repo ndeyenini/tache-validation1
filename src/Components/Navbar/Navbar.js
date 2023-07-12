@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import './navbar.css'
+import './navbar.scss'
 // import Header from "react-bootstrap"
 import {MdOutlineTravelExplore} from 'react-icons/md'
 import { AiFillCloseCircle } from "react-icons/ai";
