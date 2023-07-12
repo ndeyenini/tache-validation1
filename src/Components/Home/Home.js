@@ -3,6 +3,14 @@ import React, {useEffect} from "react";
 import "./home.scss";
 import video from "../../Assets/ocean_-_65560 (540p).mp4";
 import  {GrLocation}  from "react-icons/gr";
+import { HiFilter } from "react-icons/hi";
+
+import { FiFacebook } from "react-icons/fi";
+import { BsInstagram } from "react-icons/bs";
+import { FaTripadvisor } from "react-icons/fa";
+import { BsListCheck } from "react-icons/bs";
+import { TbApps } from "react-icons/tb";
+
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -49,20 +57,20 @@ Aos.init({duration:2000})
             </div>
           </div>
           <div className='searchOptions flex'>
-            <GrLocation className='icon' />
+            <HiFilter className='icon' />
             <span>More FILTERS</span>
           </div>
         </div>
         <div data-aos='fade-up' className='homeFooterIcon flex'>
           <div className='rightIcon'>
-            <GrLocation className='icon' />
-            <GrLocation className='icon' />
-            <GrLocation className='icon' />
+            <FiFacebook className='icon' />
+            <BsInstagram className='icon' />
+            <FaTripadvisor className='icon' />
           </div>
           <div className='leftIcons'>
-            <GrLocation className='icon' />
-            <GrLocation className='icon' />
-            <GrLocation className='icon' />
+            <FaTripadvisor className='icon' />
+            <BsListCheck className='icon' />
+            <TbApps className='icon' />
           </div>
         </div>
       </div>
